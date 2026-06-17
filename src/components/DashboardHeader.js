@@ -2,12 +2,12 @@ export default function DashboardHeader({ clientName, reportPeriod }) {
   return (
     <section className="header">
       <div>
-        <h1>💼 Отчёт для {clientName}</h1>
-        <p>Период: {reportPeriod}</p>
+        <h1>Analytics — {clientName}</h1>
+        <p>Period: {reportPeriod}</p>
       </div>
       <div className="cta">
-        <button className="primary">Запросить полный доступ</button>
-        <button className="ghost">Скачать презентацию</button>
+        <button className="primary">Request Full Access</button>
+        <button className="ghost">Download Report</button>
       </div>
     </section>
   );
