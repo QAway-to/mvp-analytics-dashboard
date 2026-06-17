@@ -1,54 +1,54 @@
 const metrics = {
   kpis: [
     {
-      title: 'Конверсия',
-      value: '4.7%',
+      title: "Conversion Rate",
+      value: "4.7%",
       trend: 18,
-      description: 'Рост заявок после обновления лендинга'
+      description: "Growth after landing page update"
     },
     {
-      title: 'Активные клиенты',
-      value: '1 248',
+      title: "Active Users",
+      value: "1,248",
       trend: 12,
-      description: 'Количество уникальных пользователей за месяц'
+      description: "Unique users over the last 30 days"
     },
     {
-      title: 'Средний чек',
-      value: '12 400 ₽',
+      title: "Avg. Revenue",
+      value: "$1,240",
       trend: 9,
-      description: 'Средний доход на клиента (ARPU)'
+      description: "Average revenue per user (ARPU)"
     }
   ],
   conversion: [
-    { label: 'Пн', value: 3.1 },
-    { label: 'Вт', value: 3.8 },
-    { label: 'Ср', value: 4.2 },
-    { label: 'Чт', value: 4.5 },
-    { label: 'Пт', value: 4.7 },
-    { label: 'Сб', value: 4.9 },
-    { label: 'Вс', value: 5.1 }
+    { label: "Mon", value: 3.1 },
+    { label: "Tue", value: 3.8 },
+    { label: "Wed", value: 4.2 },
+    { label: "Thu", value: 4.5 },
+    { label: "Fri", value: 4.7 },
+    { label: "Sat", value: 4.9 },
+    { label: "Sun", value: 5.1 }
   ],
   activity: [
-    { label: 'Неделя 1', value: 860 },
-    { label: 'Неделя 2', value: 980 },
-    { label: 'Неделя 3', value: 1120 },
-    { label: 'Неделя 4', value: 1248 }
+    { label: "Week 1", value: 860 },
+    { label: "Week 2", value: 980 },
+    { label: "Week 3", value: 1120 },
+    { label: "Week 4", value: 1248 }
   ],
   events: [
     {
-      time: '10:45',
-      title: 'Подключен новый источник данных',
-      description: 'CRM Bitrix24 синхронизирована с аналитикой'
+      time: "10:45",
+      title: "New data source connected",
+      description: "Bitrix24 CRM synced with analytics pipeline"
     },
     {
-      time: '09:20',
-      title: 'Рост конверсии на 6%',
-      description: 'A/B тестирование новой формы заявки'
+      time: "09:20",
+      title: "Conversion up 6%",
+      description: "A/B test on new lead form completed"
     },
     {
-      time: 'Вчера',
-      title: 'Построен отчёт для маркетинга',
-      description: 'Доступен дашборд эффективности рекламных кампаний'
+      time: "Yesterday",
+      title: "Marketing report generated",
+      description: "Campaign performance dashboard published"
     }
   ]
 };
