@@ -2,7 +2,7 @@ export default function ActivityFeed({ items }) {
   return (
     <article className="panel feed">
       <header>
-        <h2>Последние события</h2>
+        <h2>Recent Events</h2>
       </header>
       <ul>
         {items.map((item, index) => (
